@@ -1,0 +1,79 @@
+/* ============================================
+   Sorte.ia CCE — Design Tokens
+   Identidade visual: Corre Com Elas Running Club
+   ============================================ */
+
+:root {
+  /* Cores da marca */
+  --cce-pink:        #fd26c1;
+  --cce-pink-hover:  #e000aa;
+  --cce-pink-light:  rgba(253, 38, 193, 0.08);
+  --cce-pink-mid:    rgba(253, 38, 193, 0.15);
+
+  --cce-orange:      #ff904a;
+  --cce-orange-light: rgba(255, 144, 74, 0.12);
+
+  /* Neutros */
+  --cce-black:       #111111;
+  --cce-gray-dark:   #1c1c1c;
+  --cce-gray-mid:    #2a2a2a;
+  --cce-gray:        #aaaaaa;
+  --cce-gray-light:  #f5f5f5;
+  --cce-white:       #ffffff;
+
+  /* Tipografia */
+  --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Tamanhos de fonte */
+  --text-xs:   10px;
+  --text-sm:   12px;
+  --text-base: 14px;
+  --text-md:   16px;
+  --text-lg:   20px;
+  --text-xl:   28px;
+  --text-2xl:  40px;
+  --text-draw: 64px;
+
+  /* Border radius */
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-pill: 999px;
+
+  /* Espaçamentos */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  12px;
+  --space-lg:  16px;
+  --space-xl:  24px;
+  --space-2xl: 32px;
+
+  /* Transições */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Sombras (uso restrito) */
+  --shadow-focus: 0 0 0 3px rgba(253, 38, 193, 0.25);
+}
+
+/* Modo escuro — tela de sorteio */
+[data-theme="draw"] {
+  --bg-primary:   var(--cce-black);
+  --bg-secondary: var(--cce-gray-dark);
+  --bg-tertiary:  var(--cce-gray-mid);
+  --text-primary: var(--cce-white);
+  --text-muted:   rgba(255, 255, 255, 0.5);
+  --border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Modo claro — configuração e relatório */
+[data-theme="light"] {
+  --bg-primary:   var(--cce-white);
+  --bg-secondary: #fafafa;
+  --bg-tertiary:  var(--cce-gray-light);
+  --text-primary: var(--cce-black);
+  --text-muted:   var(--cce-gray);
+  --border-color: rgba(0, 0, 0, 0.08);
+}

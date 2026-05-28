@@ -1,0 +1,38 @@
+.page { min-height: 100dvh; display: flex; flex-direction: column; background: var(--gray-100); }
+
+.body { flex: 1; padding: var(--sp-xl) var(--sp-xl) calc(var(--sp-3xl) + env(safe-area-inset-bottom)); display: flex; flex-direction: column; gap: var(--sp-lg); max-width: 480px; width: 100%; margin: 0 auto; }
+
+.statsRow { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-sm); }
+.statCard { background: var(--white); border-radius: var(--r-md); padding: var(--sp-lg); text-align: center; display: flex; flex-direction: column; gap: 2px; }
+.statVal   { font-family: var(--font-display); font-size: var(--text-xl); font-weight: 800; color: var(--pk); }
+.statLabel { font-family: var(--font-display); font-size: var(--text-2xs); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-400); }
+
+.resultsCard { background: var(--white); border-radius: var(--r-md); overflow: hidden; }
+.resultsHeader { padding: var(--sp-md) var(--sp-lg); border-bottom: 1px solid var(--gray-100); }
+.resultsTitle { font-family: var(--font-display); font-size: var(--text-2xs); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-400); }
+
+.resultRow { display: flex; align-items: flex-start; gap: var(--sp-md); padding: var(--sp-md) var(--sp-lg); }
+.resultRow:not(:last-child) { border-bottom: 1px solid var(--gray-100); }
+
+.resultLeft { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 80px; }
+
+.resultNumber { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 800; color: var(--pk); }
+
+.resultAtleta { font-size: var(--text-xs); color: var(--pk); font-weight: 600; }
+
+.resultInfo { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.resultPrize { font-size: var(--text-sm); color: var(--black); font-weight: 500; }
+
+.resultTime { font-size: var(--text-xs); color: var(--gray-400); }
+
+.empty { text-align: center; padding: var(--sp-2xl); color: var(--gray-400); font-size: var(--text-sm); }
+
+.actions { display: flex; flex-direction: column; gap: var(--sp-sm); }
+
+.resultDesclassificados { font-size: var(--text-xs); color: var(--or); font-weight: 500; }
+
+.badgeGanhador { display: inline-block; background: var(--pk-light); color: var(--pk); font-size: var(--text-2xs); font-weight: 700; padding: 2px 8px; border-radius: var(--r-pill); letter-spacing: 0.06em; }
+.badgeDesclassificado { display: inline-block; background: var(--or-light); color: #c45f00; font-size: var(--text-2xs); font-weight: 700; padding: 2px 8px; border-radius: var(--r-pill); letter-spacing: 0.06em; white-space: nowrap; }
+.desclassificadosRow { display: flex; align-items: center; gap: var(--sp-xs); margin-top: 4px; }
+
+.resultAtleta { font-size: var(--text-xs); color: var(--pk); font-weight: 500; display: block; margin-top: 2px; }

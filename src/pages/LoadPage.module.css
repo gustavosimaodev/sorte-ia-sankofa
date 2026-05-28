@@ -1,0 +1,18 @@
+.page { min-height: 100dvh; display: flex; flex-direction: column; background: var(--gray-100); }
+
+.body { flex: 1; padding: var(--sp-xl) var(--sp-xl) calc(var(--sp-3xl) + env(safe-area-inset-bottom)); display: flex; flex-direction: column; gap: var(--sp-lg); max-width: 480px; width: 100%; margin: 0 auto; }
+
+.hint { font-size: var(--text-sm); color: var(--gray-400); text-align: center; }
+
+.dropZone { background: var(--white); border: 2px dashed var(--gray-200); border-radius: var(--r-lg); padding: var(--sp-3xl) var(--sp-xl); display: flex; flex-direction: column; align-items: center; gap: var(--sp-sm); cursor: pointer; transition: border-color var(--t-fast), background var(--t-fast); text-align: center; }
+.dropZone:hover, .dragging { border-color: var(--or); background: var(--or-light); }
+.done { border-color: var(--or); border-style: solid; }
+
+.dropIcon { width: 52px; height: 52px; border-radius: 50%; background: var(--or-light); display: flex; align-items: center; justify-content: center; }
+
+.dropText { font-family: var(--font-display); font-size: var(--text-md); font-weight: 600; color: var(--black); }
+.dropSub  { font-size: var(--text-xs); color: var(--gray-400); }
+
+.error { font-size: var(--text-sm); color: #e53e3e; text-align: center; }
+
+.actions { display: flex; flex-direction: column; gap: var(--sp-sm); margin-top: auto; }
