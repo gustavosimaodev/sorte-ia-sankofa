@@ -4,7 +4,7 @@ App de sorteio ao vivo para eventos do **Corre Com Elas Running Club**.
 
 Progressive Web App (PWA) — roda no navegador, instala no iPhone e funciona offline.
 
-🔗 **Produção:** https://sorte-ia-cce.vercel.app
+🔗 **Produção:** https://sorte-ia-sankofa.vercel.app
 
 ---
 

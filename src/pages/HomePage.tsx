@@ -9,11 +9,11 @@ export function HomePage() {
     <div className={styles.page}>
       <div className={styles.hero}>
         <img
-          src="/logo-cce.jpeg"
-          alt="Corre Com Elas"
+          src="/logo.png"
+          alt="Corre Sankofa"
           className={styles.logo}
         />
-        <h1 className={styles.title}>SORTE.IA<br /><span className={styles.titleAccent}>CCE</span></h1>
+        <h1 className={styles.title}>SORTE.IA<br /><span className={styles.titleAccent}>SANKOFA</span></h1>
         <p className={styles.tagline}>Sorteios auditáveis para o seu evento</p>
       </div>
 

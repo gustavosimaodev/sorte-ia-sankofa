@@ -1,17 +1,17 @@
 /* ============================================
-   Sorte.ia CCE — Design Tokens
-   Identidade visual: Corre Com Elas Running Club
+   Sorte.ia Sankofa — Design Tokens
+   Identidade visual: Corre Sankofa Running Club
    ============================================ */
 
 :root {
   /* Cores da marca */
-  --cce-pink:        #fd26c1;
-  --cce-pink-hover:  #e000aa;
-  --cce-pink-light:  rgba(253, 38, 193, 0.08);
-  --cce-pink-mid:    rgba(253, 38, 193, 0.15);
+  --cce-pink:        #F0B429;
+  --cce-pink-hover:  #D4960F;
+  --cce-pink-light:  rgba(240, 180, 41, 0.10);
+  --cce-pink-mid:    rgba(240, 180, 41, 0.18);
 
-  --cce-orange:      #ff904a;
-  --cce-orange-light: rgba(255, 144, 74, 0.12);
+  --cce-orange:      #C0392B;
+  --cce-orange-light: rgba(192, 57, 43, 0.12);
 
   /* Neutros */
   --cce-black:       #111111;
@@ -55,7 +55,7 @@
   --transition-slow: 400ms ease;
 
   /* Sombras (uso restrito) */
-  --shadow-focus: 0 0 0 3px rgba(253, 38, 193, 0.25);
+  --shadow-focus: 0 0 0 3px rgba(240, 180, 41, 0.25);
 }
 
 /* Modo escuro — tela de sorteio */

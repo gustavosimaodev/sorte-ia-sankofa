@@ -56,7 +56,6 @@ export function PresetsPage() {
 
       <div className={styles.body}>
 
-        {/* Seção 1 — Salvar */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Salvar configuração atual</h2>
 
@@ -89,7 +88,7 @@ export function PresetsPage() {
 
             <input
               className={styles.nameInput}
-              placeholder="Ex: CCE Maio 2026"
+              placeholder="Ex: Sankofa Maio 2026"
               value={nomeConfig}
               onChange={(e) => setNomeConfig(e.target.value)}
             />
@@ -100,7 +99,6 @@ export function PresetsPage() {
           </div>
         </section>
 
-        {/* Seção 2 — Lista */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Configurações salvas</h2>
 
@@ -147,7 +145,6 @@ export function PresetsPage() {
 
       </div>
 
-      {/* Rodapé fixo */}
       <div className={styles.footer}>
         <div className={styles.footerRow}>
           <Button
@@ -168,7 +165,7 @@ export function PresetsPage() {
             onChange={(e) => { const f = e.target.files?.[0]; if (f) handleImport(f); e.target.value = '' }}
           />
         </div>
-        {importError && <p style={{ color: '#e53e3e', fontSize: 'var(--text-xs)', marginTop: 'var(--sp-xs)', textAlign: 'center' }}>{importError}</p>}
+        {importError && <p style={{ color: '#e53e3e', fontSize: 'var(--text-sm)', marginTop: 'var(--sp-xs)', textAlign: 'center' }}>{importError}</p>}
       </div>
     </div>
   )

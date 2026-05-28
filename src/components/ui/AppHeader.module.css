@@ -1,5 +1,5 @@
 .header {
-  background: var(--pk);
+  background: var(--black);
   padding: max(var(--sp-xl), env(safe-area-inset-top)) var(--sp-xl) var(--sp-xl);
   color: var(--white);
 }
@@ -16,12 +16,12 @@
   font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.14em;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.35);
   flex: 1;
 }
 
 .back {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.6);
   display: flex;
   align-items: center;
   padding: var(--sp-xs);
@@ -44,6 +44,6 @@
 .subtitle {
   font-family: var(--font-body);
   font-size: var(--text-sm);
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.45);
   margin-top: var(--sp-xs);
 }

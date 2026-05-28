@@ -118,6 +118,6 @@ export const useSessionStore = create<SessionState>()(
         return { configuracoesSalvas: [...s.configuracoesSalvas, ...novas.filter((c) => !ids.has(c.id))] }
       }),
     }),
-    { name: 'sorte-ia-cce-session' }
+    { name: 'sorte-ia-sankofa-session' }
   )
 )

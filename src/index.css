@@ -1,5 +1,5 @@
 /* ============================================
-   Sorte.ia CCE — Global Styles v0.1.0
+   Sorte.ia Sankofa — Global Styles v0.1.0
    ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap');
@@ -16,13 +16,13 @@ ul, ol { list-style: none; }
 
 /* --- Tokens --- */
 :root {
-  /* Marca */
-  --pk:            #fd26c1;
-  --pk-hover:      #e000aa;
-  --pk-light:      rgba(253, 38, 193, 0.08);
-  --pk-mid:        rgba(253, 38, 193, 0.18);
-  --or:            #ff904a;
-  --or-light:      rgba(255, 144, 74, 0.12);
+  /* Marca Sankofa */
+  --pk:            #F0B429;
+  --pk-hover:      #D4960F;
+  --pk-light:      rgba(240, 180, 41, 0.10);
+  --pk-mid:        rgba(240, 180, 41, 0.18);
+  --or:            #C0392B;
+  --or-light:      rgba(192, 57, 43, 0.12);
 
   /* Neutros */
   --black:         #111111;

@@ -55,7 +55,6 @@ export function SetupPage() {
     && !isNaN(parseInt(numFinal))
     && parseInt(numInicial) < parseInt(numFinal)
     && sorteios.length > 0
-    && sorteios.length > 0
 
   return (
     <div className={styles.page}>
@@ -71,7 +70,7 @@ export function SetupPage() {
           <h2 className={styles.sectionTitle}>Evento</h2>
           <Input
             label="Nome do evento"
-            placeholder="Ex: Corre Com Elas — Maio 2026"
+            placeholder="Ex: Corre Sankofa — Maio 2026"
             value={nomeEv}
             onChange={(e) => setNomeEv(e.target.value)}
           />

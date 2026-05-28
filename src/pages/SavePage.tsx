@@ -64,7 +64,7 @@ export function SavePage() {
 
             <input
               className={styles.nameInput}
-              placeholder="Ex: CCE Maio 2026"
+              placeholder="Ex: Sankofa Maio 2026"
               value={nomeConfig}
               onChange={(e) => setNomeConfig(e.target.value)}
             />

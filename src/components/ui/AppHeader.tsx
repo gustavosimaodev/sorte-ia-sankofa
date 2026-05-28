@@ -21,7 +21,7 @@ export function AppHeader({ title, subtitle, backTo, action }: AppHeaderProps) {
             </svg>
           </button>
         )}
-        <span className={styles.logo}>SORTE.IA · CCE</span>
+        <span className={styles.logo}>SORTE.IA · SANKOFA</span>
         {action && <div className={styles.action}>{action}</div>}
       </div>
       <h1 className={styles.title}>{title}</h1>

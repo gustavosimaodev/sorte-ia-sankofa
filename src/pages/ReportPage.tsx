@@ -14,7 +14,7 @@ function exportCSV(resultados: ResultadoSorteio[], nomeEvento: string) {
   const blob = new Blob(['\uFEFF' + header + rows], { type: 'text/csv;charset=utf-8;' })
   const url  = URL.createObjectURL(blob)
   const a    = document.createElement('a')
-  const slug = (nomeEvento || 'cce').toLowerCase().replace(/\s+/g, '-')
+  const slug = (nomeEvento || 'sankofa').toLowerCase().replace(/\s+/g, '-')
   a.href = url; a.download = `sorteio-${slug}-${Date.now()}.csv`; a.click()
   URL.revokeObjectURL(url)
 }
@@ -33,7 +33,7 @@ export function ReportPage() {
     <div className={styles.page}>
       <AppHeader
         title={<>Relatório <span style={{ color: 'var(--or)' }}>final</span></>}
-        subtitle={nomeEvento || 'Corre Com Elas'}
+        subtitle={nomeEvento || 'Corre Sankofa'}
       />
 
       <div className={styles.body}>

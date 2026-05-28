@@ -1,4 +1,4 @@
-.page { min-height: 100dvh; display: flex; flex-direction: column; background: var(--pk); }
+.page { min-height: 100dvh; display: flex; flex-direction: column; background: var(--black); }
 
 .hero {
   flex: 1;
@@ -23,7 +23,7 @@
 
 .tagline {
   font-size: var(--text-sm);
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.45);
   margin-top: var(--sp-sm);
 }
 
@@ -56,5 +56,5 @@
   background: var(--gray-200);
 }
 
-.logo { width: 180px; height: auto; margin-bottom: var(--sp-md); }
-.titleAccent { color: var(--or); }
+.logo { width: 160px; height: auto; margin-bottom: var(--sp-md); }
+.titleAccent { color: var(--pk); }

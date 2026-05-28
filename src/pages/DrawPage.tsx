@@ -14,7 +14,6 @@ export function DrawPage() {
 
   const [displayNum, setDisplayNum] = useState<number | null>(null)
 
-  // Animação de números rolando antes de fixar
   useEffect(() => {
     if (!isAnimating) {
       setDisplayNum(ultimoResultado?.numeroPeito ?? null)
@@ -44,7 +43,7 @@ export function DrawPage() {
 
       {/* Status bar */}
       <div className={styles.statusBar}>
-        <span className={styles.appName}>SORTE.IA · CCE</span>
+        <span className={styles.appName}>SORTE.IA · SANKOFA</span>
         <span className={styles.counter}>{sorteioAtual + 1} / {totalSorteios}</span>
       </div>
 
@@ -81,7 +80,7 @@ export function DrawPage() {
       <div className={[styles.winnerArea, ultimoResultado ? styles.visible : ''].join(' ')}>
         {ultimoResultado?.nomeAtleta && (
           <>
-            <p className={styles.winnerLabel}>ganhadora</p>
+            <p className={styles.winnerLabel}>ganhador(a)</p>
             <p className={styles.winnerName}>{ultimoResultado.nomeAtleta}</p>
           </>
         )}
@@ -97,7 +96,7 @@ export function DrawPage() {
       <div className={styles.actions}>
         {ultimoResultado ? (
           <>
-            <p className={styles.presenceLabel}>A ganhadora está presente?</p>
+            <p className={styles.presenceLabel}>O ganhador está presente?</p>
             <div className={styles.presenceBtns}>
               <button className={styles.ausenteBtn} onClick={desclassificar}>
                 Desclassificado · resortear

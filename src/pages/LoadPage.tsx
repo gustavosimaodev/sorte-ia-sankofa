@@ -50,7 +50,7 @@ export function LoadPage() {
     <div className={styles.page}>
       <AppHeader
         title={<>Importar <span style={{ color: 'var(--or)' }}>configuração</span></>}
-        subtitle="Carregue um arquivo exportado do SORTE.IA CCE"
+        subtitle="Carregue um arquivo exportado do SORTE.IA Sankofa"
         backTo="/"
       />
 

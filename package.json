@@ -1,8 +1,8 @@
 {
-  "name": "sorte-ia-cce",
-  "version": "0.0.1",
+  "name": "sorte-ia-sankofa",
+  "version": "0.1.0",
   "private": true,
-  "description": "App de sorteio ao vivo para eventos do Corre Com Elas Running Club",
+  "description": "App de sorteio ao vivo para eventos do Corre Sankofa",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -33,6 +33,6 @@
     "vite": "^5.3.1",
     "vite-plugin-pwa": "^0.20.0"
   },
-  "keywords": ["pwa", "sorteio", "corridas", "eventos", "corre-com-elas"],
-  "author": "Sorte.ia CCE"
+  "keywords": ["pwa", "sorteio", "corridas", "eventos", "corre-sankofa"],
+  "author": "Sorte.ia Sankofa"
 }
